@@ -1,0 +1,674 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+html,
+body {
+    width: 100%;
+}
+.body {
+    background-color: rgb(33, 33, 33);
+}
+.w50 {
+    width: 50%;
+    float: left;
+}
+.clear {
+    clear: both;
+}
+/* Header */
+body>header {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.781), rgba(0, 0, 0, 0.158)), linear-gradient(to top, rgba(0, 0, 0, 0.432), rgba(0, 0, 0, 0.007)), url(../img/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo img {
+    width: 180px;
+}
+
+nav {
+    margin-top: -7px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .sign-in button {
+    background-color: #e50914;
+    line-height: normal;
+    padding: 7px 17px;
+    font-weight: 400;
+    font-size: 1rem;
+    color: white;
+    border: 0;
+    outline: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+header .container .banner {
+    text-align: center;
+    color: white;
+    margin-top: 115px;
+    padding-bottom: 150px;
+}
+
+header .container .banner h1 {
+    font-size: 3.15rem;
+    font-weight: bold;
+}
+
+header .container .banner p {
+    font-size: 26px;
+}
+
+header .container .banner p:last-of-type {
+    padding-top: 15px;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.banner-footer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    padding: 0 5%;
+}
+
+.banner-footer input[type=email] {
+    width: 500px;
+    height: 50px;
+    padding: 0 10px;
+    position: relative;
+    outline: none;
+    border: none;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+}
+
+::selection {
+    background-color: red;
+    color: white;
+}
+
+.banner-footer button {
+    width: 150px;
+    height: 50px;
+    outline: none;
+    border: none;
+    padding: 0 10px;
+    background-color: rgb(245, 29, 15);
+    color: white;
+    font-size: 25px;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    cursor: pointer;
+}
+
+/* Fim Header */
+/* Sessaõ 1 */
+.sessao-1 {
+    padding: 45px 10px 60px 10px;
+    background-color: black;
+    color: white;
+    margin: 10px 0;
+}
+
+.container-sessao {
+    position: relative;
+    max-width: 1000px;
+    display: flex;
+    align-items: center;
+    padding: 0 3%;
+    margin: 0 auto;
+}
+
+.container-sessao-4 {
+    position: relative;
+    max-width: 1000px;
+    padding: 0 3%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.sessao-1 .container-sessao {
+    align-items: center;
+}
+
+.sessao-1 .container-sessao .sessao-1-descricao {
+    margin-left: -3rem;
+    margin-right: 4rem;
+    margin-top: 50px;
+}
+
+.sessao-1 .container-sessao .sessao-1-descricao h1 {
+    font-weight: bold;
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+
+.sessao-1 .container-sessao .sessao-1-descricao h3 {
+    font-weight: lighter;
+    font-size: 25px;
+}
+
+.sessao-1 .container-sessao .sessao-1-img {
+    position: relative;
+}
+
+.sessao-1-img img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 460px;
+}
+
+.sessao-1-img video {
+    height: 295px;
+    width: 350px;
+    margin-left: 20px;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+/*  Fim Sessão 1*/
+/* sessao 2 */
+.sessao-2 {
+    background-color: black;
+    color: white;
+    margin: 10px 0;
+    padding-bottom: 20px;
+}
+
+.sessao-2 .container-sessao {
+    align-items: center;
+}
+
+.sessao-2-img {
+    position: relative;
+}
+
+.sessao-2-img>img {
+    width: 410px;
+    margin-left: -100px;
+}
+
+.sessao-2-img-footer {
+    position: absolute;
+    top: 205px;
+    left: -45px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: black;
+    border: 2px solid rgb(62, 61, 61);
+}
+
+.sessao-2-img-footer img {
+    width: 60px;
+    margin: 0 5px;
+    height: 75px;
+}
+
+.sessao-2-img-footer .sessao-2-img-footer-content {
+    margin-left: 6px;
+}
+
+.sessao-2-img-footer .sessao-2-img-footer-content p {
+    margin: 2px 0;
+    font-size: 18px;
+}
+
+.sessao-2-img-footer .sessao-2-img-footer-content p:last-of-type {
+    color: rgb(0, 112, 232);
+}
+
+.sessao-2-img-footer img:last-of-type {
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+}
+
+.sessao-2-descricao {
+    margin-left: 100px;
+    margin-right: -4rem;
+    margin-top: 50px;
+}
+
+.sessao-2-descricao h1 {
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.sessao-2-descricao h3 {
+    font-weight: lighter;
+    font-size: 25px;
+}
+
+/* Fim sessao 2 */
+/* Sessao 3 */
+.sessao-3 .container-sessao {
+    padding: 30px 10px;
+}
+
+.sessao-3 .container-sessao .sessao-3-descricao {
+    width: 64%;
+}
+
+.sessao-3 .container-sessao .sessao-3-descricao h1 {
+    font-size: 45px;
+    margin: 5px 0;
+}
+
+.sessao-3 .container-sessao .sessao-3-descricao p {
+    font-size: 25px;
+}
+
+/* Fim Sessao 3 */
+/* sessao 4 */
+.sessao-4 {
+    background-color: black;
+    color: white;
+}
+
+.sessao-4 .container-sessao-4 .sessao-4-img {
+    margin-left: -100px;
+}
+
+.sessao-4 .container-sessao-4 .sessao-4-img img {
+    width: 550px;
+}
+
+.sessao-4 .container-sessao-4 .sessao-4-descricao {
+    margin-left: 150px;
+}
+
+.sessao-4 .container-sessao-4 .sessao-4-descricao h1 {
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.sessao-4 .container-sessao-4 .sessao-4-descricao h3 {
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+/* Fim sessao 4 */
+/* sessao 5 */
+.mt-10 {
+    margin-top: 10px;
+}
+
+.sessao-5 {
+    padding: 30px 2%;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+.sessao-5 .container .box-sessao-5>h1 {
+    margin: 20px 0;
+    font-size: 50px;
+}
+
+/*accordion*/
+.accordion {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.accordion__title {
+    font-weight: 400;
+    margin-top: .15rem;
+    transition: .2s;
+    font-size: 30px;
+}
+
+.accordion__header {
+    background-color: rgb(48, 48, 48);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.accordion__description {
+    font-size: 20px;
+    padding: 20px;
+}
+
+.accordion__icon {
+    font-size: 1.5rem;
+    height: max-content;
+    transition: .3s;
+    fill: white;
+    width: 35px;
+    transform: rotate(45deg);
+}
+
+.accordion__item {
+    margin: 8px 0;
+    border-radius: .25rem;
+    position: relative;
+    transition: all .25s ease;
+}
+
+.accordion__item::after {
+    content: '';
+    width: 5px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: .25rem 0 0 .25rem;
+}
+
+.accordion__content {
+    margin-top: 2px;
+    background-color: rgb(48, 48, 48);
+    overflow: hidden;
+    height: 0;
+    transition: all .25s ease;
+}
+
+.accordion__content p {
+    text-align: left;
+}
+
+.accordion-open .accordion__icon {
+    transform: rotate(90deg);
+}
+
+.sessao-5-email .container .email {
+    margin-top: 40px;
+    margin: 0 auto;
+}
+
+.sessao-5-email .container .email p {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+/*Fim sessao 5*/
+/*footer*/
+.footer {
+    margin-top: 10px;
+    background-color: black;
+    color: rgb(89, 89, 87);
+    padding: 20px;
+}
+
+.box-footer .container>p {
+    margin: 10px 0 20px 0;
+}
+
+.box-footer .container {
+    max-width: 1000px;
+}
+
+.box-single {
+    display: flex;
+}
+
+.box-single .box-single-footer {
+    margin-right: 45px;
+    margin-bottom: 20px;
+}
+
+.box-single .box-single-footer ul {
+    list-style: none;
+}
+
+.box-single .box-single-footer li {
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+/* Fim footer */
+/*Responsivo*/
+@media (max-width:1000px) {
+    .box-footer .container .box-single {
+        flex-wrap: wrap;
+    }
+
+    .container-sessao-4 {
+        display: inline-block;
+    }
+
+    .sessao-4 .container-sessao-4 .sessao-4-img {
+        margin-left: 0px;
+    }
+
+    .sessao-4 .container-sessao-4 .sessao-4-descricao {
+        margin-top: 20px;
+        margin-left: 0;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .sessao-4 .container-sessao-4 .sessao-4-img img {
+        width: 100%;
+    }
+
+    .sessao-1-img {
+        width: 100%;
+        display: none;
+    }
+
+    .w50 {
+        width: 100%;
+        float: none;
+    }
+
+    .w50 img {
+        width: 100%;
+    }
+
+    .sessao-2-img>img {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .sessao-2-img-footer {
+        left: 45px;
+    }
+
+    .sessao-2-img-footer {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        align-items: center;
+        padding: 5px;
+        margin-top: 130px;
+    }
+
+    .sessao-3 .container-sessao .sessao-3-descricao {
+        text-align: center;
+    }
+
+    .sessao-1 .container-sessao .sessao-1-descricao {
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 50px;
+    }
+
+    .sessao-2 .container-sessao .sessao-2-descricao {
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 100px;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    .container-sessao,
+    .banner-footer {
+        flex-direction: column;
+    }
+
+    .banner-footer button {
+        margin-top: 10px;
+        border-radius: 3px;
+    }
+
+    .banner-footer input[type=email] {
+        border-radius: 3px;
+    }
+
+    div.sessao-2-descricao h1 {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width:620px) {
+    .banner-footer input[type=email] {
+        width: 100%;
+    }
+}
+
+/*Fim Responsivo*/
+/* <========Login===========> */
+#corpo {
+    background-image:
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.781), rgba(0, 0, 0, 0.158)),
+        linear-gradient(to top, rgba(0, 0, 0, 0.432), rgba(0, 0, 0, 0.007)),
+        url(../img/bg-login.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.group-form {
+    background-color: rgba(0, 1, 1, 0.658);
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 50px;
+    color: rgb(115, 115, 115);
+}
+
+.group-form form h1 {
+    margin: 10px 0 20px 0;
+    color: white;
+    font-size: 40px;
+}
+
+.group-form form .form-g input[type=text],
+.group-form form .form-g input[type=password] {
+    width: 100%;
+    background-color: rgb(51, 51, 51);
+    outline: none;
+    border: none;
+    height: 45px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 16px;
+    color: rgb(115, 115, 115);
+}
+
+.group-form form .form-g button {
+    width: 100%;
+    background-color: rgb(229, 9, 20);
+    outline: none;
+    border: none;
+    height: 45px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.group-form form .form-g .form-footer {
+    margin-top: 20px;
+}
+
+.group-form form .form-g .form-footer input[type=checkbox] {
+    float: left;
+    outline: none;
+    border: none;
+}
+
+.form-footer p {
+    float: right;
+}
+
+.box-description {
+    margin-top: 60px;
+}
+
+.box-description>a {
+    text-decoration: none;
+    color: rgb(115, 115, 115);
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.box-description a img {
+    width: 25px;
+    margin-right: 10px;
+    border-radius: 3px;
+}
+
+.box-description p {
+    margin: 12px 0;
+}
+
+.box-description p span {
+    color: white;
+}
+
+.box-description p:last-child a {
+    color: rgb(0, 98, 255);
+    text-decoration: none;
+}
+
+.footer-login {
+    margin-top: 80px;
+    padding: 20px;
+    background-color: rgba(0, 1, 1, 0.658);
+    color: rgb(115, 115, 115);
+}
+
+.footer-login .box-single-footer {
+    margin-right: 100px;
+}
+
+@media (max-width:730px) {
+    #corpo {
+        background-image: none;
+        background-color: black;
+    }
+
+    .group-form {
+        background-color: rgba(0, 1, 1, 0.658);
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .box-description {
+        margin-top: 20px;
+    }
+}
+
+
+/* <=======Fim Login========> */
