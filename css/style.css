@@ -4,25 +4,32 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 .container {
     max-width: 1300px;
     margin: 0 auto;
     padding: 0 2%;
 }
+
 html,
 body {
     width: 100%;
 }
+
 .body {
     background-color: rgb(33, 33, 33);
 }
+
+
 .w50 {
     width: 50%;
     float: left;
 }
+
 .clear {
     clear: both;
 }
+
 /* Header */
 body>header {
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.781), rgba(0, 0, 0, 0.158)), linear-gradient(to top, rgba(0, 0, 0, 0.432), rgba(0, 0, 0, 0.007)), url(../img/bg.jpg);
@@ -543,13 +550,25 @@ header .container .banner p:last-of-type {
     }
 }
 
+@media (max-width:390px) {
+    .sessao-5 .container .box-sessao-5>h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width:190px) {
+    body {
+        overflow: auto;
+    }
+}
+
 /*Fim Responsivo*/
 /* <========Login===========> */
 #corpo {
     background-image:
         linear-gradient(to bottom, rgba(0, 0, 0, 0.781), rgba(0, 0, 0, 0.158)),
         linear-gradient(to top, rgba(0, 0, 0, 0.432), rgba(0, 0, 0, 0.007)),
-        url(../img/bg-login.jpg);
+        url(../img/bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -641,34 +660,27 @@ header .container .banner p:last-of-type {
     color: rgb(0, 98, 255);
     text-decoration: none;
 }
-
 .footer-login {
     margin-top: 80px;
     padding: 20px;
     background-color: rgba(0, 1, 1, 0.658);
     color: rgb(115, 115, 115);
 }
-
 .footer-login .box-single-footer {
     margin-right: 100px;
 }
-
 @media (max-width:730px) {
     #corpo {
         background-image: none;
         background-color: black;
     }
-
     .group-form {
         background-color: rgba(0, 1, 1, 0.658);
         max-width: 100%;
         padding: 10px;
     }
-
     .box-description {
         margin-top: 20px;
     }
 }
-
-
 /* <=======Fim Login========> */
