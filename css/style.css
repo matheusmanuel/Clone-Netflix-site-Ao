@@ -284,6 +284,7 @@ header .container .banner p:last-of-type {
 
 .sessao-3 .container-sessao .sessao-3-descricao p {
     font-size: 25px;
+    margin: 15px 0;
 }
 
 /* Fim Sessao 3 */
@@ -555,13 +556,11 @@ header .container .banner p:last-of-type {
         font-size: 2rem;
     }
 }
-
-@media (max-width:190px) {
-    body {
-        overflow: auto;
+@media (max-width:300px){
+    .sessao-3 .container-sessao .sessao-3-descricao h1{
+        font-size: 35px;
     }
 }
-
 /*Fim Responsivo*/
 /* <========Login===========> */
 #corpo {
@@ -660,25 +659,30 @@ header .container .banner p:last-of-type {
     color: rgb(0, 98, 255);
     text-decoration: none;
 }
+
 .footer-login {
     margin-top: 80px;
     padding: 20px;
     background-color: rgba(0, 1, 1, 0.658);
     color: rgb(115, 115, 115);
 }
+
 .footer-login .box-single-footer {
     margin-right: 100px;
 }
+
 @media (max-width:730px) {
     #corpo {
         background-image: none;
         background-color: black;
     }
+
     .group-form {
         background-color: rgba(0, 1, 1, 0.658);
         max-width: 100%;
         padding: 10px;
     }
+
     .box-description {
         margin-top: 20px;
     }
